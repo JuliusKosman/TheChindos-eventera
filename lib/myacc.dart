@@ -28,7 +28,10 @@ class _MyWidgetState extends State<MyAccInfo> {
                   ),
                   Text("Joyce Byers"),
                   Text("joycebyers@gmail.com"),
-
+                  Divider(
+                    color: Colors.black,
+                    thickness: 2,
+                  ),
                 ],
               ),
             ),
@@ -46,16 +49,24 @@ class _MyWidgetState extends State<MyAccInfo> {
                       Text("Medan")
                     ],
                   ),
-
+                  Divider(
+                    color: Colors.black,
+                  ),
                   Text("Account Settings"),
-
+                  Divider(
+                    color: Colors.black,
+                  ),
 
                   Text("Support"),
 
                   Text("Help Centre"),
-
+                  Divider(
+                    color: Colors.black,
+                  ),
                   Text("Suggest Improvements"),
-
+                  Divider(
+                    color: Colors.black,
+                  ),
 
                   Text("About"),
 
@@ -63,13 +74,21 @@ class _MyWidgetState extends State<MyAccInfo> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [Expanded(child: Text("Version")), Text("1.0.0")],
                   ),
-
+                  Divider(
+                    color: Colors.black,
+                  ),
                   Text("Version"),
-
+                  Divider(
+                    color: Colors.black,
+                  ),
                   Text("Privacy"),
-
+                  Divider(
+                    color: Colors.black,
+                  ),
                   Text("Terms of Service"),
-
+                  Divider(
+                    color: Colors.black,
+                  ),
                   Text("Cookie Policy"),
                  
                   
