@@ -34,6 +34,31 @@ class _MyWidgetState extends State<MyAccInfo> {
                 ],
               ),
             ),
+            Padding(
+              padding: const EdgeInsets.only(left: 20, right: 20, bottom: 8),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text("Setting"),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Row(
+                    children: [
+                      Expanded(child: Text("Primary City")),
+                      Text("Medan")
+                    ],
+                  ),
+                  Divider(
+                    color: Colors.black,
+                  ),
+                  Text("Account Settings"),
+                  Divider(
+                    color: Colors.black,
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),
