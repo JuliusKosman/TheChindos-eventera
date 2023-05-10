@@ -38,10 +38,12 @@ class _MyWidgetState extends State<MyAccInfo> {
             Padding(
               padding: const EdgeInsets.only(left: 20, right: 20, bottom: 8),
               child: Column(
-
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text("Setting"),
-
+                  SizedBox(
+                    height: 20,
+                  ),
                   Row(
                     
                     children: [
@@ -56,9 +58,13 @@ class _MyWidgetState extends State<MyAccInfo> {
                   Divider(
                     color: Colors.black,
                   ),
-
+                  SizedBox(
+                    height: 30,
+                  ),
                   Text("Support"),
-
+                  SizedBox(
+                    height: 20,
+                  ),
                   Text("Help Centre"),
                   Divider(
                     color: Colors.black,
@@ -67,9 +73,13 @@ class _MyWidgetState extends State<MyAccInfo> {
                   Divider(
                     color: Colors.black,
                   ),
-
+                  SizedBox(
+                    height: 30,
+                  ),
                   Text("About"),
-
+                  SizedBox(
+                    height: 20,
+                  ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [Expanded(child: Text("Version")), Text("1.0.0")],
@@ -90,7 +100,9 @@ class _MyWidgetState extends State<MyAccInfo> {
                     color: Colors.black,
                   ),
                   Text("Cookie Policy"),
-                 
+                  SizedBox(
+                    height: 30,
+                  ),
                   
                 ],
               ),
@@ -102,3 +114,4 @@ class _MyWidgetState extends State<MyAccInfo> {
     );
   }
 }
+  
