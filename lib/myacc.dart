@@ -12,7 +12,7 @@ class _MyWidgetState extends State<MyAccInfo> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("sncjcjevnjb"),
+        title: Text(""),
       ),
       body: SingleChildScrollView(
         child: Column(
