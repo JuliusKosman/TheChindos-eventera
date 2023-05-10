@@ -15,7 +15,6 @@ class _MyWidgetState extends State<MyAccInfo> {
         title: Text(""),
       ),
       body: SingleChildScrollView(
-        
         child: Column(
           children: [
             Padding(
@@ -35,83 +34,9 @@ class _MyWidgetState extends State<MyAccInfo> {
                 ],
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(left: 20, right: 20, bottom: 8),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text("Setting"),
-                  SizedBox(
-                    height: 20,
-                  ),
-                  Row(
-                    
-                    children: [
-                      Expanded(child: Text("Primary City")),
-                      Text("Medan")
-                    ],
-                  ),
-                  Divider(
-                    color: Colors.black,
-                  ),
-                  Text("Account Settings"),
-                  Divider(
-                    color: Colors.black,
-                  ),
-                  SizedBox(
-                    height: 30,
-                  ),
-                  Text("Support"),
-                  SizedBox(
-                    height: 20,
-                  ),
-                  Text("Help Centre"),
-                  Divider(
-                    color: Colors.black,
-                  ),
-                  Text("Suggest Improvements"),
-                  Divider(
-                    color: Colors.black,
-                  ),
-                  SizedBox(
-                    height: 30,
-                  ),
-                  Text("About"),
-                  SizedBox(
-                    height: 20,
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [Expanded(child: Text("Version")), Text("1.0.0")],
-                  ),
-                  Divider(
-                    color: Colors.black,
-                  ),
-                  Text("Version"),
-                  Divider(
-                    color: Colors.black,
-                  ),
-                  Text("Privacy"),
-                  Divider(
-                    color: Colors.black,
-                  ),
-                  Text("Terms of Service"),
-                  Divider(
-                    color: Colors.black,
-                  ),
-                  Text("Cookie Policy"),
-                  SizedBox(
-                    height: 30,
-                  ),
-                  
-                ],
-              ),
-            ),
-            ElevatedButton(onPressed: null, child: Text("Logout"))
           ],
         ),
       ),
     );
   }
 }
-  
