@@ -15,6 +15,7 @@ class _MyWidgetState extends State<MyAccInfo> {
         title: Text(""),
       ),
       body: SingleChildScrollView(
+        
         child: Column(
           children: [
             Padding(
@@ -44,6 +45,7 @@ class _MyWidgetState extends State<MyAccInfo> {
                     height: 20,
                   ),
                   Row(
+                    
                     children: [
                       Expanded(child: Text("Primary City")),
                       Text("Medan")
@@ -56,6 +58,21 @@ class _MyWidgetState extends State<MyAccInfo> {
                   Divider(
                     color: Colors.black,
                   ),
+                  SizedBox(
+                    height: 30,
+                  ),
+                  Text("Support"),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Text("Help Centre"),
+                  Divider(
+                    color: Colors.black,
+                  ),
+                  Text("Suggest Improvements"),
+                  Divider(
+                    color: Colors.black,
+                  )
                 ],
               ),
             ),
@@ -65,3 +82,4 @@ class _MyWidgetState extends State<MyAccInfo> {
     );
   }
 }
+  
