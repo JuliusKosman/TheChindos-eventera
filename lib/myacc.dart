@@ -15,7 +15,6 @@ class _MyWidgetState extends State<MyAccInfo> {
         title: Text(""),
       ),
       body: SingleChildScrollView(
-        
         child: Column(
           children: [
             Padding(
@@ -45,7 +44,6 @@ class _MyWidgetState extends State<MyAccInfo> {
                     height: 20,
                   ),
                   Row(
-                    
                     children: [
                       Expanded(child: Text("Primary City")),
                       Text("Medan")
@@ -103,7 +101,6 @@ class _MyWidgetState extends State<MyAccInfo> {
                   SizedBox(
                     height: 30,
                   ),
-                  
                 ],
               ),
             ),
@@ -114,4 +111,3 @@ class _MyWidgetState extends State<MyAccInfo> {
     );
   }
 }
-  
